@@ -7,6 +7,6 @@
   <div class="quantity-and-total">
 
     <p>Quantity: <%= line_item.quantity %></p>
-    <p>Total: $<%= line_item.total_price %></p>
+    <p>Total: <%= humanized_money_with_symbol line_item.total_price %></p>
   </div>
 </div>
