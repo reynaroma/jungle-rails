@@ -22,6 +22,19 @@ Rails.application.routes.draw do
     resources :categories, only: [:index, :new, :create]
     resources :products
   end
+
+  # routes for user signup
+  get '/signup', to: 'users#new'
+  post '/users', to: 'users#create'
+
+  # routes for user login
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+
+  # routes for user logout
+  delete '/logout', to: 'sessions#destroy'
+  resources :users, except: [:new]
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
