@@ -2,11 +2,12 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
-![Jungle Home Page](/home/labber/ruby/jungle-rails/docs/jungle-homepage.png)
-![Jungle Login Page](/home/labber/ruby/jungle-rails/docs/jungle-login.png)
-![Jungle Signup Page](/home/labber/ruby/jungle-rails/docs/jungle-signup.png)
+## Snapshots
+![Jungle Home Page](docs/jungle-homepage.png)
+![Jungle Login Page](docs/jungle-login.png)
+![Jungle Signup Page](docs/jungle-signup.png)
 ![Jungle Authentication Snapshot for Admin Access](docs/jungle-authenticate-admin-access.png)
-![Jungle Sample Item from the List](/home/labber/ruby/jungle-rails/docs/jungle-item.png)
+![Jungle Sample Item from the List](docs/jungle-item.png)
 
 ## Setup
 
